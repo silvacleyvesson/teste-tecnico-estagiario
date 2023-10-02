@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Teste Técnico em Desenvolvimento Web - React e Ecossistema
 
-## Getting Started
+Este teste técnico tem como objetivo avaliar seu conhecimento em React e seu ecossistema, bem como sua habilidade para resolver problemas de desenvolvimento web. Siga as instruções abaixo para cada questão e forneça as respostas ou código solicitados. Certifique-se de ler atentamente cada pergunta e responder de forma clara e concisa.
 
-First, run the development server:
+## Instruções Gerais
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Você terá um tempo limitado para concluir as tarefas. Faça o seu melhor dentro desse prazo.
+- Para as perguntas teóricas, responda em texto simples.
+- Para as questões de código, forneça o código solicitado na linguagem especificada.
+- Certifique-se de nomear seus arquivos ou trechos de código de forma apropriada.
+- Você pode enviar suas respostas e código em um único arquivo ou documento.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Questões e Tarefas
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Questão 1:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Pergunta:** Crie um botão vermelho com as bordas arredondadas que exiba "Clique-me!"
+como texto. Ao clicar no botão, um alert deve ser disparado avisando que
+o botão foi clicado.
 
-## Learn More
+**Arquivo:** [Questão 1](./src/app/questoes/1/page.jsx)
 
-To learn more about Next.js, take a look at the following resources:
+### Questão 2:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Pergunta:** Crie um contador inicializado em 0. O devem existir dois botões: um para
+incrementar o contador e outro para decrementar o contador. Implemente a
+lógica para atualizar o contador quando os botões são clicados.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Arquivo:** [Questão 2](./src/app/questoes/2/page.jsx)
 
-## Deploy on Vercel
+### Questão 3:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Pergunta:** Escreva uma função JavaScript que recebe uma matriz de números inteiros
+e retorna a soma de todos os números pares. Exiba a soma na tela.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Arquivo:** [Questão 3](./src/app/questoes/3/page.jsx)
+
+### Questão 4:
+
+**Pergunta:** Crie um componente chamado `ProductList` que recebe uma matriz de
+objetos de produto e renderiza uma lista de produtos. Cada produto deve
+exibir seu nome e preço.
+
+**Arquivo:** [Questão 4](./src/app/questoes/4/page.jsx)
