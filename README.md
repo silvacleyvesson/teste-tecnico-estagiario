@@ -17,16 +17,18 @@ Este teste técnico tem como objetivo avaliar seu conhecimento em React, bem com
 ### Questão 1:
 
 **Pergunta:** Crie um botão vermelho com as bordas arredondadas que exiba "Clique-me!"
-como texto. Ao clicar no botão, um alert deve ser disparado avisando que
+como texto. Ao clicar no botão, um alerta deve ser disparado avisando que
 o botão foi clicado.
 
 **Arquivo:** [Questão 1](./src/app/questoes/1/page.jsx)
 
 ### Questão 2:
 
-**Pergunta:** Crie um contador inicializado em 0. O devem existir dois botões: um para
-incrementar o contador e outro para decrementar o contador. Implemente a
-lógica para atualizar o contador quando os botões são clicados.
+**Pergunta:** Crie um contador inicializado em 0. A tela deve exibir dois botões: um
+para incrementar o contador e outro para decrementar o contador. Ao
+carregar a tela, o contador deve ser atualizado para 10. Implemente a
+lógica para atualizar o contador quando a tela for carregada e a lógica
+para atualizar o contador quando os botões forem clicados.
 
 **Arquivo:** [Questão 2](./src/app/questoes/2/page.jsx)
 
