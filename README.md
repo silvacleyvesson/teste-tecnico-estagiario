@@ -1,14 +1,16 @@
-# Teste Técnico em Desenvolvimento Web - React e Ecossistema
+# Teste Técnico em Desenvolvimento Web - React
 
-Este teste técnico tem como objetivo avaliar seu conhecimento em React e seu ecossistema, bem como sua habilidade para resolver problemas de desenvolvimento web. Siga as instruções abaixo para cada questão e forneça as respostas ou código solicitados. Certifique-se de ler atentamente cada pergunta e responder de forma clara e concisa.
+Este teste técnico tem como objetivo avaliar seu conhecimento em React, bem como sua habilidade para resolver problemas de desenvolvimento web. Siga as instruções abaixo para cada questão e forneça as respostas ou código solicitados. Certifique-se de ler atentamente cada pergunta e responder de forma clara e concisa.
 
 ## Instruções Gerais
 
-- Você terá um tempo limitado para concluir as tarefas. Faça o seu melhor dentro desse prazo.
-- Para as perguntas teóricas, responda em texto simples.
-- Para as questões de código, forneça o código solicitado na linguagem especificada.
-- Certifique-se de nomear seus arquivos ou trechos de código de forma apropriada.
-- Você pode enviar suas respostas e código em um único arquivo ou documento.
+- Cada questão tem um arquivo existente equivalente.
+- Resolva cada questão no seu arquivo equivalente.
+- Você pode fazer pesquisas na internet mas não é permitido a ajuda de terceiros.
+- Dica: Utilize documentações oficiais disponíveis, como:
+  - [HTML e CSS](https://www.w3schools.com/)
+  - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  - [React](https://react.dev/)
 
 ## Questões e Tarefas
 
