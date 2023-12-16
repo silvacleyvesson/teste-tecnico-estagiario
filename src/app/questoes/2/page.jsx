@@ -1,14 +1,24 @@
+import React, { useState, useEffect } from 'react';
 export default function Questao2() {
-  return (
-    <>
-      <h1>Questão 2</h1>
-      <p>
-        Crie um contador inicializado em 0. A tela deve exibir dois botões: um
-        para incrementar o contador e outro para decrementar o contador. Ao
-        carregar a tela, o contador deve ser atualizado para 10. Implemente a
-        lógica para atualizar o contador quando a tela for carregada e a lógica
-        para atualizar o contador quando os botões forem clicados.
-      </p>
-    </>
-  );
+ const [count, setCount] = useState(0);
+
+ useEffect(() => {
+    setCount(10);
+ }, []);
+
+ const incrementCounter = () => {
+    setCount(count + 1);
+ };
+
+ const decrementCounter = () => {
+    setCount(count - 1);
+ };
+
+ return (
+    <div>
+      <h1>Count: {count}</h1>
+      <button onClick={incrementCounter}>Incremento+</button>
+      <button onClick={decrementCounter}>Decremento-</button>
+    </div>
+ );
 }
