@@ -1,14 +1,15 @@
-const numerosInteiros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
 export default function Questao3() {
-  return (
-    <>
-      <h1>Questão 3</h1>
-      <p>
-        Escreva uma função JavaScript que recebe uma matriz de números inteiros
-        e retorna a soma de todos os números pares. Exiba a soma na tela.
-      </p>
-      <p>Soma:</p>
-    </>
-  );
+    
+  function somaDeNumerosPares(arr) {
+        return arr.reduce((soma, numero) => (numero % 2 === 0 ? soma + numero : soma), 0);
+      }
+      let numerosInteiros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+      let soma = somaDeNumerosPares(numerosInteiros);
+
+      return (
+        <>
+          <h1>Questão 3</h1>
+          <p>Soma: {soma}</p>
+        </>
+      );
 }
