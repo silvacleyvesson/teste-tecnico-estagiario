@@ -1,4 +1,14 @@
-const produtos = [
+const ProductList = ({ products }) => (
+    <ul>
+      {products.map((product, index) => (
+        <li key={index}>
+          {product.nome} - ${product.preco}
+        </li>
+      ))}
+    </ul>
+  );
+export default function Questao4() {
+  const produtos = [
   {
     id: 1,
     nome: "Camiseta",
@@ -15,16 +25,11 @@ const produtos = [
     preco: 19.99,
   },
 ];
-
-export default function Questao4() {
-  return (
-    <>
-      <h1>Questão 4</h1>
-      <p>
-        Crie um componente chamado `ProductList` que recebe uma matriz de
-        objetos de produto e renderiza uma lista de produtos. Cada produto deve
-        exibir seu nome e preço.
-      </p>
-    </>
-  );
+  
+ return (
+        <div>
+            <h1>Lista de Produtos</h1>
+            <ProductList products={products} />
+        </div>
+    );
 }
